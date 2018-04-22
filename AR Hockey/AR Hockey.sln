@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey.CSharp", "AR Hockey.CSharp.csproj", "{A7F7060A-ABF7-E795-62BB-B3E6314DE23A}"
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey", "AR Hockey.csproj", "{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey.CSharp.Editor", "AR Hockey.CSharp.Editor.csproj", "{D8D1C637-51F2-397A-199D-17196F2FF528}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey.Editor", "AR Hockey.Editor.csproj", "{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7F7060A-ABF7-E795-62BB-B3E6314DE23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7F7060A-ABF7-E795-62BB-B3E6314DE23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7F7060A-ABF7-E795-62BB-B3E6314DE23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7F7060A-ABF7-E795-62BB-B3E6314DE23A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8D1C637-51F2-397A-199D-17196F2FF528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8D1C637-51F2-397A-199D-17196F2FF528}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8D1C637-51F2-397A-199D-17196F2FF528}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8D1C637-51F2-397A-199D-17196F2FF528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

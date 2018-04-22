@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="AR Hockey.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Beam.cs">
+    <Files>
+      <File FileName="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Beam.cs" Line="10" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
