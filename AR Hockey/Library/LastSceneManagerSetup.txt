@@ -2,6 +2,3 @@ sceneSetups:
 - path: Assets/GameScene.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/MoverioBT300UnityPlugin/MoverioSample_Labyrinth/Scenes/Main.unity
-  isLoaded: 1
-  isActive: 0

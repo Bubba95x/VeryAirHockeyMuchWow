@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey", "AR Hockey.csproj", "{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey", "Assembly-CSharp.csproj", "{87A5C8E0-2E55-EE5E-7B91-B99AB3575DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey.Editor", "AR Hockey.Editor.csproj", "{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Hockey", "Assembly-CSharp-Editor.csproj", "{12CBAD0C-BCFE-DBA1-8B38-72822773CCCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0BA91D1-E1C5-0B41-1544-D618DA3FED08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9F37BB5-BACD-F012-FE5E-D16D0B48DD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A5C8E0-2E55-EE5E-7B91-B99AB3575DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A5C8E0-2E55-EE5E-7B91-B99AB3575DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A5C8E0-2E55-EE5E-7B91-B99AB3575DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A5C8E0-2E55-EE5E-7B91-B99AB3575DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CBAD0C-BCFE-DBA1-8B38-72822773CCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CBAD0C-BCFE-DBA1-8B38-72822773CCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CBAD0C-BCFE-DBA1-8B38-72822773CCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CBAD0C-BCFE-DBA1-8B38-72822773CCCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
