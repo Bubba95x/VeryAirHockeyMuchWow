@@ -71,6 +71,7 @@
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Shoot.cs" />
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Signboard.cs" />
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Target.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
