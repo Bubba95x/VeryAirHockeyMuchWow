@@ -71,24 +71,16 @@
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Shoot.cs" />
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Signboard.cs" />
      <Compile Include="Assets\MoverioBT300UnityPlugin\MoverioSample_Labyrinth\Scripts\Target.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
-     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
-     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Scene\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Scene\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
-     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>D:/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
