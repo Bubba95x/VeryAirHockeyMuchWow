@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/TestScene.unity
     guid: 5b04ca6b73e0700419770a329b701361
   - enabled: 1
+    path: Assets/Jaron's Stuffs/Lobby test scene.unity
+    guid: 5d200a350565a434880e83f3d9752683
+  - enabled: 1
     path: Assets/GameScene.unity
     guid: 7ad31271984234e4fac399f7f1277ac1

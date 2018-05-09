@@ -1,25 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 
-public class EnemyManager : MonoBehaviour {
+public class EnemyManager : NetworkBehaviour {
 	public PlayerHealth playerHealth;
 	public GameObject enemy;
 	public float spawnTime = 3f;
-	public Transform[] spawnPoints;
+	public Transform spawnPoints;
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating ("Spawn", spawnTime, spawnTime);
+		InvokeRepeating ("CmdSpawn", spawnTime, spawnTime);
 	}
 	
+
 	// Update is called once per frame
-	void Spawn () {
+    [Command]
+	void CmdSpawn () {
 		if (playerHealth.currentHealth <= 0f) 
 		{
 			return;
 		}
-		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
-		Instantiate (enemy, spawnPoints [spawnPointIndex].position, spawnPoints [spawnPointIndex].rotation);
+
+		Instantiate (enemy, spawnPoints.position, spawnPoints.rotation);
 	}
 }
